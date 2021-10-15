@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aliceblue;
+   
+}
+
+ nav ul {
+    display: flex;   
+    gap: 20px;
+list-style: none;
+}
+
+.logo {
+    width: 100px;
+}
+.a {
+    text-decoration: none;
+}
+.b {
+    text-decoration: none;
+}
+.c {
+    text-decoration: none;
+}
+.d {
+    text-decoration: none;
+}
+.e {
+    text-decoration: none;
+}
+.f {
+    text-decoration: none;
+  
+}
+
+

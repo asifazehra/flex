@@ -1,0 +1,280 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: rgb(42, 42, 42);
+  padding: 0 20px;
+
+}
+
+/* Navbar here */
+
+#navbar {
+  background-color: #fff;
+  margin-top: 5px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.heading {
+  color: gray;
+}
+
+.heading h2 {
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+nav ul {
+    padding-top: 8px;
+  gap: 50px;
+  list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+/* Home Sections here */
+
+.home-wrapper {
+    background-color: #fff;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph {
+    margin: 50px 0;
+}
+
+.paragraph p {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.screen {
+    flex-direction: column;
+    background-color: #000;
+    width: 90%;
+    height: 300px;
+}
+
+.screen h1 {
+    color: #fff;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.screen-info {
+    float: right;
+    margin: 80px 40px 0 0;
+    justify-content: right;
+    flex-direction: column;
+}
+
+.screen-info h4 {
+    background-color: rgb(101, 204, 87);
+    text-align: center;
+    width: 400px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.screen-info p {
+    width: 400px;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 5px;
+    margin: 10px;
+}
+
+.slider-items {
+    margin-top: 20px;
+}
+
+
+.btn {
+    padding: 5px;
+    background-color: chartreuse;
+    width: 8px;
+    border: 2px solid chartreuse;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Home ends here */
+
+/* About us section */
+.about-us {
+    background-color: #fff;
+    height: 100vh;
+}
+.f1 {
+    margin: 4px;
+    width: 150px;
+    height: 90px;
+    display: flex;
+}
+.about-wrapper {
+    display: flex;
+    padding-top: 40px;
+  }
+.left {
+    flex-basis: 33.33%;
+   
+}
+
+.center {
+    flex-basis: 33.33%;
+   
+}
+.ab {
+    display: flex;
+    padding: 10px;
+}
+.f2 {
+    width: 30px;
+    height: 50px;
+}
+
+.right {
+    flex-basis: 33.33%;
+}
+
+
+/* Footer here */
+
+.footer {
+    height: 80vh;
+    display: flex;
+    color: gray;
+    padding-top: 30px;
+}
+
+.lft {
+    flex-basis: 25%;
+}
+h3 {
+    color: white;
+}
+.break {
+    margin: 5px;  
+   
+}
+.mail {
+    text-decoration: none;
+    color: green;
+}
+
+.med1 {
+    flex-basis: 25%;
+}
+
+.med2 {
+    flex-basis: 25%;
+}
+
+.rgt {
+    flex-basis: 25%;
+}
+
+
+
+
+
+
+
+
+.new {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(107, 104, 104);
+  text-align: center;
+  text-decoration: white;
+  padding: 30px;
+}
+.text {
+  text-decoration: white;
+}
+.para2 {
+  width: 50px;
+  height: 70px;
+  background-color: gray;
+  text-align: center;
+}
+
+.smallparts {
+  display: flex;
+}
+
+
+.section-5 {
+  display: flex;
+}
+
+
+
+.fa-linkedin {
+    background: #0c916f;
+    color: white;
+}
+.fa-twitter {
+    background: rgb(4, 94, 105);
+    color: white;
+}
+.small {
+    text-decoration: none;
+    color: green;
+}
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.read {
+    text-decoration: none;
+    color: green;
+}
+.name {
+    background: rgb(151, 149, 149);
+}
+.email {
+    background: rgb(151, 149, 149);
+}
+.message {
+    width: 170px;
+    height: 100px;
+    background: rgb(151, 149, 149);
+    
+  }
+  .submit {
+    border-radius: 8px;
+    background-color: green;
+    height: 30px;
+    width: 70px;
+  }
+.end-text {
+    padding-left: 1000px;
+    
+}
+
